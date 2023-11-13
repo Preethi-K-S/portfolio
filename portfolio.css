@@ -1,0 +1,231 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+li a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+ 
+
+}
+li{
+    float: left;
+  padding-left: 140px;
+  }
+ul{
+    list-style: none;
+ 
+ 
+}
+.navbar{
+    background-color: black;
+      padding: 5px;
+      position: fixed;
+      width: 100%;
+}
+#left{
+  padding: 10px;
+ position: absolute;
+}
+#right{
+  position: absolute;
+  padding: 20px;
+  margin-left: 140px;
+
+}
+#box{
+  display: flex;
+ align-items: center;
+
+}
+
+#about h1{
+  margin-top: 150px;
+ padding-top: 65px;
+ padding-left: 20px;
+  
+  
+}
+#about p{
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-top: 9px;
+  font-size: 20px;
+  text-indent: 65px;
+}
+#about h3{
+  padding: 8px;
+  margin-left: 100px;
+  margin-top: 18px;
+}
+#about .progress{
+  width: 280px;
+  margin-left: 30px;
+}
+
+#resume .vl{
+  border-left: 1px solid black;
+  height: 1300px;
+  margin-left: 50%;
+  position: absolute;
+  margin-top: 150px;
+}
+#resume .grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 30px;
+ 
+}
+
+#resume .rleft h1{
+  font-size: 65px;
+  margin-top: 5px;
+ 
+}
+#resume .rleft p{
+  font-size: 18px;
+}
+#resume .rleft h2{
+  font-size: 30px;
+  color: rgb(51, 204, 250);
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+#resume .rleft h6{
+  margin-bottom: 30px;
+  margin-top: 5px;
+}
+
+
+#resume .rright{
+  margin-left: 60px;
+  margin-top: 100px;
+ 
+ }
+ #resume .rright h2{
+   font-size: 30px;
+   color: rgb(51, 204, 250);
+   margin-top: 50px;
+   margin-bottom: 30px;
+ }
+ #resume .rright h2{
+   font-size: 30px;
+   color: rgb(51, 204, 250);
+   margin-top: 50px;
+   margin-bottom: 30px;
+ }
+ #resume .rright h5{
+   margin-bottom: 10px;
+   margin-top: 5px;
+ }
+ #resume .rright h6{
+   margin-bottom: 5px;
+   padding: 5px;
+ }
+ #resume .rright p{
+   font-weight: 500;
+   font-size: 16px;
+ }
+
+
+#pdf h1{
+  margin-top: 30px;
+  padding: 20px;
+}
+#pdf a{
+  padding: 20px;
+  text-decoration: none;
+  font-size: larger;
+  
+}
+#pdf button{
+  border-radius: 50px;
+  padding: 10px;
+  margin-left: 40px;
+}
+#project{
+  margin-top: 50px;
+}
+
+#project h1{
+  margin-top: 130px;
+}
+
+#project .container{
+ width: 490px;
+ height: 460px;
+  border: 4px solid black;
+  border-radius: 20px 20px;
+  position: relative;
+  box-shadow: 10px 10px 30px black;
+  background: url("pizza.jpg");
+  background-repeat: no-repeat;
+  background-size: 500px;
+ 
+}
+#project #phara{
+  padding: 5px;
+  text-align: center;
+  margin-top: 240px;
+}
+.btn-left{
+  position: absolute;
+  top: 55%;
+  background-color: white;
+  color: black;
+  left: -3%;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 20px;
+}
+.btn-right{
+  position: absolute;
+  top: 55%;
+  background-color: white;
+  color: black;
+  right: -3%;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+
+#project .container.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+#project .b1{
+ padding: 5px;
+margin: 20px 175px;
+border-radius: 5px;
+}
+#project a{
+  text-decoration: none;
+}
+#contact{
+  display: flex;
+  margin-top: 500px;
+  background: linear-gradient(rgb(49, 82, 230),white)
+}
+
+#contact a{
+  text-decoration: none;
+  padding: 50px;
+  margin-left: 60px;
+}
+
+#contact h2{
+  padding: 20px;
+  margin-top: 10px;
+   margin-left: 50px;
+   color: white;
+  }
+
+  #contact h2:hover{
+    color: black;
+  }
+
